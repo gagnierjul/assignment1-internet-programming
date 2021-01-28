@@ -1,0 +1,51 @@
+﻿
+body {    
+	color : #333333;
+	font-family : "Arial", "Helvetica", sans-serif;
+}
+
+.panel{
+	background-color: #00FFFF;
+	padding : 10px;
+	width : 400px;
+	margin-top : 20px;
+	margin-left : auto;
+	margin-right : auto;
+	border-radius: 5px;
+	box-shadow: inset 1px 1px 4px #999999;
+}
+
+.panel h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.panel h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.panel table{
+	margin-top: 30px;
+	vertical-align: top;
+}
+
+
+.panel table td{
+	width: 90px;
+	height: 50px;
+}
+
+.buttons{
+	margin: 20px;
+}
+
+
+
+
+
+

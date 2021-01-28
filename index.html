@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<!-- #1 --> 
+
+<head>
+    <meta charset="utf-8" />
+    <title>Montreal Tourism</title>
+    <link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<div class="container">
+		<section class="panel">
+			<h1> Montreal Tourism </h1>
+			<h2> A trip evaluator for a visit </h2>
+
+			<table>
+			<form method="post" action="jquery.html">
+			
+			<td> Visitor: </td> 
+			<td><input id="visitor" type="text" name="visitor name" size="30" maxlength="50" value="your name" onfocus="this.value=''"/><br></td>
+			
+
+			<tr>
+			<td>Sex: </td>
+			<td>
+			<input id="rm" type="radio" name="r_gender" />
+			<label for="rm">Male</label> <br />
+			<input id="rf" type="radio" name="r_gender" />
+			<label for="rf">Female</label> <br />
+			</td>
+			</tr>
+
+			<tr>
+			<td> Number: </td>
+			<td>
+			<select name="s_box">
+            <option value="s_1" selected="selected">1</option>
+            <option value="s_2">2</option>
+			<option value="s_3">3</option>
+			<option value="s_4">4</option>
+			<option value="s_5">5</option>
+			<option value="s_6">6</option>
+			</select> persons
+			</td>
+			</tr>
+
+			<tr>
+			<td> Duration: </td>
+			<td>
+			<select name="sd_box">
+            <option value="sd_1" selected="selected">1</option>
+            <option value="sd_2">2</option>
+			<option value="sd_3">3</option>
+			<option value="sd_4">4</option>
+			<option value="sd_5">5</option>
+			<option value="sd_6">6</option>
+			<option value="sd_7">7</option>
+			<option value="sd_8">8</option>
+			<option value="sd_9">9</option>
+			<option value="sd_10">10</option>
+			<option value="sd_11">11</option>
+			<option value="sd_12">12</option>
+			<option value="sd_13">13</option>
+			<option value="sd_14">14</option>
+			<option value="sd_15">15</option>
+			</select> days
+			</td>
+			</tr>
+
+			<tr>
+			<td> Hotel: </td>
+			<td>
+			<select name="hotel_box">
+            <option value="hotel_1">1 Star</option>
+			<option value="hotel_2">2 Stars</option>
+			<option value="hotel_3" selected="selected">3 Stars</option>
+			<option value="hotel 4">4 Stars</option>
+			<option value="hotel_5">5 Stars</option>
+			</select>
+			</td>
+			</tr>
+
+			<tr>
+			<td> Room Type: </td>
+			<td>
+			<select name="room_box" size="3" multiple="multiple">
+            <option value="s_single">Single Room</option>
+            <option value="s_semi" selected="selected">Semi-suite</option>
+			<option value="suite">Suite</option>
+			</select>
+			</td>
+			</tr>
+
+			<tr>
+			<td> Activities </td>
+			<td>
+			<input id="cm" type="checkbox" name="c_bus" />
+			<label for="cm">City-bus-tours Can$ 20</label> <br />
+			<input id="cf" type="checkbox" name="c_spa" />
+			<label for="cf">Spa-Manage Can$ 100</label> <br />
+			<input id="ci" type="checkbox" name="c_sports" />
+			<label for="ci">Sport Event Can$ 150</label><br />
+			</td>
+			</tr>
+			</table>
+			
+			<section class="buttons">
+			<br>
+			<input type="button" name="b_evaluate" value="Evaluate" />
+			<input type="reset" name="b_reset" value="Reset" />
+			</br>
+			</section>
+
+			</form>
+		</section>
+	</div>
+</body>
+</html>
